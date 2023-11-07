@@ -1,8 +1,8 @@
 'use strict';
 
 function makeArray(firstArray, secondArray, maxLength) {
-  let concatArray = firstArray.concat(secondArray);
-  let newArray = [];
+  const concatArray = firstArray.concat(secondArray);
+  const newArray = [];
   if (concatArray.length > maxLength) {
     for (let i = 0; i < maxLength; i += 1) {
       newArray.push(concatArray[i]);
